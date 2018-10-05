@@ -1,3 +1,0 @@
-﻿Class winTestUC
-
-End Class

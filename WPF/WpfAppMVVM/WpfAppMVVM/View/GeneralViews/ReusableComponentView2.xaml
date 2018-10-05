@@ -1,0 +1,171 @@
+﻿<UserControl x:Class="WpfAppMVVM.View.GeneralViews.ReusableComponentView2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfAppMVVM.View.GeneralViews"
+              xmlns:viewmodel="clr-namespace:WpfAppMVVM.ViewModel"
+             xmlns:reusCmp="clr-namespace:WpfAppMVVM.View.ReusableComponent"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.DataContext>
+        <viewmodel:ReusableComponentViewModel />
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <DataTemplate x:Key="DefaultContent">
+            <StackPanel>
+                <TextBlock Margin="10" Text="Some default content here.."/>
+                <TextBlock Margin="10" Text="Maybe show progress for operation"/>
+            </StackPanel>
+        </DataTemplate>
+
+        <DataTemplate x:Key="AllDoneContent">
+            <StackPanel>
+                <TextBlock Margin="10" Text="** This is the ALL DONE content..." Foreground="Green"/>
+                <TextBlock Margin="10" Text="Put anything you like here"/>
+                <Button Margin="10" Content="Click Me" HorizontalAlignment="Left"/>
+            </StackPanel>
+        </DataTemplate>
+
+        <Style x:Key="MyContentStyle" TargetType="ContentPresenter">
+            <Setter Property="ContentTemplate" Value="{StaticResource DefaultContent}"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding JobDone}" Value="True">
+                    <Setter Property="ContentTemplate" Value="{StaticResource AllDoneContent}"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="{x:Type MenuItem}">
+            <Setter Property="Background" Value="Yellow" />
+            <Setter Property="BorderBrush" Value="Black" />
+            <Setter Property="BorderThickness" Value="1" />
+        </Style>
+
+        <ControlTemplate x:Key="{x:Static MenuItem.SubmenuItemTemplateKey}" TargetType="MenuItem">
+            <Border Background="Yellow" x:Name="_grid" Padding="2" BorderThickness="1" BorderBrush="Yellow" >
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" MinWidth="24" SharedSizeGroup="IconGroup"/>
+                        <ColumnDefinition Width="Auto" MinWidth="30" />
+                        <ColumnDefinition Width="20" />
+                    </Grid.ColumnDefinitions>
+                    <ContentPresenter ContentSource="Icon" Margin="{TemplateBinding Padding}" />
+                    <ContentPresenter Grid.Column="1" VerticalAlignment="Center" ContentSource="Header" RecognizesAccessKey="True" />
+                </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsHighlighted" Value="True">
+                    <Setter Property="Background" Value="Green" TargetName="_grid"/>
+                    <Setter Property="BorderBrush" Value="Black" TargetName="_grid"/>
+                    <Setter Property="Foreground" Value="White" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <Style TargetType="Separator" x:Key="{x:Static MenuItem.SeparatorStyleKey}">
+            <Setter Property="OverridesDefaultStyle" Value="True" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Separator">
+                        <Border Background="Gray" Height="3" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </UserControl.Resources>
+    <UserControl.CommandBindings>
+        <!--<CommandBinding Command="local:ReusableComponentView2.PressMeCommand"  CanExecute="PressMe_CanExecute"
+                    Executed="PressMe_Executed"/>-->
+        <!--<CommandBinding Command="viewmodel:ReusableComponentViewModel.PressMeCommand"  CanExecute="PressMe_CanExecute"
+                    Executed="PressMe_Executed"/>-->
+    </UserControl.CommandBindings>
+    <Grid>
+        <!--<Grid x:Name="LayoutRoot" Background="White">
+            <reusCmp:FieldUserControl />
+        </Grid>-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0">
+            <Menu DockPanel.Dock="Top" >
+                <MenuItem Header="_File" >
+                    <MenuItem Header="_New" />
+                    <MenuItem Header="_Open" />
+                    <MenuItem Header="_Save" />
+                    <Separator />
+                    <MenuItem Header="_Exit" />
+                </MenuItem>
+            </Menu>
+            <TextBox AcceptsReturn="True" />
+        </DockPanel>
+
+
+
+        <StackPanel Orientation="Vertical" Grid.Row="1" HorizontalAlignment="Left">
+            <reusCmp:FieldUserControl VerticalAlignment="Top" Label="Height:" Value="{Binding Height}"/>
+            <reusCmp:FieldUserControl VerticalAlignment="Top" Label="Shoesize:" Value="{Binding ShoeSize}"/>
+        </StackPanel>
+        <Separator Grid.Row="2"/>
+        <StackPanel Grid.Row="3" Orientation="Vertical">
+            <ContentPresenter Style="{StaticResource MyContentStyle}" Content="{Binding}"/>
+            <Separator />
+            <CheckBox Margin="10" Content="Mark job done" IsChecked="{Binding JobDone}"/>
+        </StackPanel>
+
+        <StackPanel Margin="15" Grid.IsSharedSizeScope="True" Grid.Row="4">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="A"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="B"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" Text="Col 1"/>
+                <TextBox Grid.Column="1" />
+                <TextBlock Grid.Column="2" Text="3rd column here"/>
+            </Grid>
+
+            <Separator Margin="0,20"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="A"/>
+                    <ColumnDefinition />
+                    <ColumnDefinition SharedSizeGroup="B"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" Text="1"/>
+                <TextBox Grid.Column="1"/>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Orientation="Vertical">
+            <Button Command="viewmodel:ReusableComponentViewModel.PressMeCommand"
+        Content="{Binding RelativeSource={RelativeSource Self}, Path=Command.Text}" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="6" Orientation="Vertical">
+            <StackPanel Width="350"  Margin="7" Orientation="Horizontal">
+                <!-- Single pixel line with pixel snapping turned OFF.-->
+                <Rectangle SnapsToDevicePixels="False"
+       Width="100" Margin="10" Height="10" Fill="Red"/>
+                <!-- Single pixel line with pixel snapping turned ON.-->
+                <Rectangle SnapsToDevicePixels="True"
+      Width="100" Margin="10" Height="10" Fill="Red"/>
+            </StackPanel>
+        </StackPanel>
+        <ToggleButton Grid.Row="7" Height="30" Width="100" Content="Toggle Button" Checked="ToggleButton_Checked"/>
+        <Popup Grid.Row="8" Height="30" Width="120" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppMVVM", "WpfAppMVVM\WpfAppMVVM.csproj", "{9C8CBED3-1EB4-41EA-9501-A5D01165BDA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppHierAndNav", "WpfAppHierAndNav\WpfAppHierAndNav.csproj", "{5023133E-A16D-4451-8B13-FED1FA2CDA90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme1", "Theme1\Theme1.csproj", "{03AC2565-A925-46A8-BA16-A2396887419A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme2", "Theme2\Theme2.csproj", "{3DBE13EE-355C-4548-839D-A37EDB926CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppDAL", "WpfAppDAL\WpfAppDAL.csproj", "{59E056C1-30E0-4297-B9DA-F7B708DC0902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{752381AA-F2CF-45B3-9164-C0C6960113F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C8CBED3-1EB4-41EA-9501-A5D01165BDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8CBED3-1EB4-41EA-9501-A5D01165BDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8CBED3-1EB4-41EA-9501-A5D01165BDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8CBED3-1EB4-41EA-9501-A5D01165BDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5023133E-A16D-4451-8B13-FED1FA2CDA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5023133E-A16D-4451-8B13-FED1FA2CDA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5023133E-A16D-4451-8B13-FED1FA2CDA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5023133E-A16D-4451-8B13-FED1FA2CDA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AC2565-A925-46A8-BA16-A2396887419A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AC2565-A925-46A8-BA16-A2396887419A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AC2565-A925-46A8-BA16-A2396887419A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AC2565-A925-46A8-BA16-A2396887419A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBE13EE-355C-4548-839D-A37EDB926CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBE13EE-355C-4548-839D-A37EDB926CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBE13EE-355C-4548-839D-A37EDB926CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBE13EE-355C-4548-839D-A37EDB926CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E056C1-30E0-4297-B9DA-F7B708DC0902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E056C1-30E0-4297-B9DA-F7B708DC0902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E056C1-30E0-4297-B9DA-F7B708DC0902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E056C1-30E0-4297-B9DA-F7B708DC0902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752381AA-F2CF-45B3-9164-C0C6960113F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752381AA-F2CF-45B3-9164-C0C6960113F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752381AA-F2CF-45B3-9164-C0C6960113F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752381AA-F2CF-45B3-9164-C0C6960113F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB901B47-721A-4824-991B-33EC06CDA2F2}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sachsuraj.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WpfAppHierAndNav\\WpfAppHierAndNav.csproj
+		SccProjectName1 = WpfAppHierAndNav
+		SccLocalPath1 = WpfAppHierAndNav
+		SccProjectUniqueName2 = WpfAppMVVM\\WpfAppMVVM.csproj
+		SccProjectName2 = WpfAppMVVM
+		SccLocalPath2 = WpfAppMVVM
+		SccProjectUniqueName3 = Theme1\\Theme1.csproj
+		SccProjectName3 = Theme1
+		SccLocalPath3 = Theme1
+		SccProjectUniqueName4 = Theme2\\Theme2.csproj
+		SccProjectName4 = Theme2
+		SccLocalPath4 = Theme2
+		SccProjectUniqueName5 = WpfAppDAL\\WpfAppDAL.csproj
+		SccProjectName5 = WpfAppDAL
+		SccLocalPath5 = WpfAppDAL
+		SccProjectUniqueName6 = WpfApp1\\WpfApp1.csproj
+		SccProjectName6 = WpfApp1
+		SccLocalPath6 = WpfApp1
+	EndGlobalSection
+EndGlobal

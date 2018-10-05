@@ -1,0 +1,8 @@
+D:\LocalVS17Solutions\WpfAppMVVM\WpfAppDAL\bin\Debug\WpfAppDAL.dll
+D:\LocalVS17Solutions\WpfAppMVVM\WpfAppDAL\bin\Debug\WpfAppDAL.pdb
+D:\LocalVS17Solutions\WpfAppMVVM\WpfAppDAL\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\LocalVS17Solutions\WpfAppMVVM\WpfAppDAL\obj\Debug\WpfAppDAL.csproj.CoreCompileInputs.cache
+D:\LocalVS17Solutions\WpfAppMVVM\WpfAppDAL\obj\Debug\WpfAppDAL.csproj.CopyComplete
+D:\LocalVS17Solutions\WpfAppMVVM\WpfAppDAL\obj\Debug\WpfAppDAL.dll
+D:\LocalVS17Solutions\WpfAppMVVM\WpfAppDAL\obj\Debug\WpfAppDAL.pdb
+D:\LocalVS17Solutions\WpfAppMVVM\WpfAppDAL\obj\Debug\WpfAppDAL.csprojResolveAssemblyReference.cache

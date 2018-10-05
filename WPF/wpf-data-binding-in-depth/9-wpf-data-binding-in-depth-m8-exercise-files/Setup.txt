@@ -1,1 +1,0 @@
-To build and run the demos for this module, simply open in Visual Studio, build and run.

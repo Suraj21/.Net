@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfAppMVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppMVVM"
+        xmlns:views="clr-namespace:WpfAppMVVM.View"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="685" Width="900">
+    <Grid>
+        <TabControl>
+            <TabItem Header="General" Height="30" Width="Auto">
+                <views:GeneralView Height="Auto" Width="Auto"/>
+            </TabItem>
+            <TabItem Header="StudnetView" Height="30" Width="Auto">
+                <views:StudentView />
+            </TabItem>
+            <!--<TabItem Header="AvalonDockView" Height="30" Width="Auto">
+                <views:AvalonDock />
+            </TabItem>-->
+            <TabItem Header="ThumbView" Height="30" Width="Auto">
+                <views:ThumbView />
+            </TabItem>
+            <TabItem Header="WPF200View" Height="30" Width="Auto">
+                <views:WPF2000View />
+            </TabItem>
+            <TabItem Header="Book" Height="30" Width="Auto">
+                <views:WPFBook />
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="WpfAppMVVM.View.BookViews.Chap4BitRateView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:WpfAppMVVM.ViewModel"
+             xmlns:local="clr-namespace:WpfAppMVVM.View.BookViews"
+             xmlns:EnumTOBoolConv="clr-namespace:WpfAppMVVM.Converter"
+             xmlns:Enums="clr-namespace:WpfAppMVVM.Enums"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.DataContext>
+        <vm:BitRateViewModel x:Name="viewModel"/>
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <EnumTOBoolConv:EnumToBoolConverter x:Key="EnumToBoolConverter" />
+        <EnumTOBoolConv:EnumToDescriptionStringConverter x:Key="DescriptionConverter" />
+
+        <DataTemplate x:Key="UserDataTemplate" DataType="{x:Type vm:BitRateViewModel}">
+            <RadioButton Content="{Binding ., Converter={StaticResource EnumToDescriptionStringConverter}}"
+                         IsChecked="{Binding BitRate, Converter={StaticResource EnumToBoolConverter}, 
+                          ConverterParameter={Binding}}" VerticalContentAlignment="Center" />
+        </DataTemplate>
+
+    </UserControl.Resources>
+    <Grid>
+        <GroupBox Header="Audio Quality" HorizontalAlignment="Left" VerticalAlignment="Top" Padding="5">
+            <!--<StackPanel>
+                <RadioButton Content="{Binding ., Converter={StaticResource DescriptionConverter}}" 
+                             IsChecked="{Binding BitRate, Converter={StaticResource EnumToBoolConverter},
+                             ConverterParameter=Sixteen}"
+                             VerticalAlignment="Center"/>
+                <RadioButton Content="24 bits" IsChecked="{Binding BitRate, Converter={StaticResource EnumToBoolConverter}, ConverterParameter=TwentyFour}"
+                             VerticalAlignment="Center"/>
+                <RadioButton Content="32 bits" IsChecked="{Binding BitRate, Converter={StaticResource EnumToBoolConverter}, ConverterParameter=ThirtyTwo}"
+                             VerticalAlignment="Center"/>
+            </StackPanel>-->
+            <ListBox ItemsSource="{Binding BitRates}" SelectedItem="{Binding BitRate}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate >
+                        <RadioButton Content="{Binding ., Converter={StaticResource DescriptionConverter}}"
+                                     IsChecked="{Binding IsSelected, RelativeSource={RelativeSource AncestorType={x:Type ListBoxItem}},
+                            FallbackValue=False}" VerticalContentAlignment="Center" />
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </GroupBox>
+
+        <StackPanel Orientation="Horizontal">
+            <Button Width="40" Height="40" Command="{Binding clickCommand}" Name="Click" />
+            <ComboBox Width="40" Height="40" ItemsSource="{Binding ComboBoxItemsource, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

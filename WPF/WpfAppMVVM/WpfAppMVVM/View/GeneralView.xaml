@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="WpfAppMVVM.View.GeneralView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppMVVM.View"
+        xmlns:view="clr-namespace:WpfAppMVVM.View.GeneralViews"
+        xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+        mc:Ignorable="d"
+        Height="300" Width="600">
+    <Grid>
+        <TabControl>
+            <TabItem Header="UserViews">
+                <view:UserViews/>
+            </TabItem>
+            <TabItem Header="MultibindingAndConverterView">
+                <view:MultibindingAndConverterView/>
+            </TabItem>
+            <TabItem Header="ReusableView1">
+                <view:ReusableComponentView1/>
+            </TabItem>
+            <TabItem Header="ReusableView2">
+                <view:ReusableComponentView2/>
+            </TabItem>
+            <TabItem Header="Employee">
+                <view:EmployeeView/>
+            </TabItem>
+        </TabControl>
+       
+    </Grid>
+</UserControl>

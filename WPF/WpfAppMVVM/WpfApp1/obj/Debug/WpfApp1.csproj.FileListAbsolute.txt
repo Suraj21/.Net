@@ -1,0 +1,15 @@
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\bin\Debug\WpfApp1.exe
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\App.g.cs
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\MainWindow.baml
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\WpfApp1.exe
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\LocalVS17Solutions\WpfAppMVVM\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache

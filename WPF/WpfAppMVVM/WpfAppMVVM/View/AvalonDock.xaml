@@ -1,0 +1,219 @@
+﻿<UserControl x:Class="WpfAppMVVM.View.AvalonDock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfAppMVVM.View"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             xmlns:s="clr-namespace:System;assembly=mscorlib"
+             xmlns:xcad="http://schemas.xceed.com/wpf/xaml/avalondock"
+             xmlns:avdockView="clr-namespace:WpfAppMVVM.View.AvalonDockViews"
+             xmlns:vm="clr-namespace:WpfAppMVVM.ViewModel"
+             xmlns:Options="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.DataContext>
+        <vm:AvalonDockViewModel />
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <SolidColorBrush Options:Freeze="true"  x:Key="colorBrush" Color="{Binding Path=Color,Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Style x:Key="AnchorablePaneTitle" TargetType="xcad:AnchorablePaneTitle">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Model.IsActive, Mode=OneWay, 
+                                     RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type xcad:LayoutAnchorableControl}},
+                                     FallbackValue=False}" Value="True">
+                    <Setter Property="Background" Value="Blue"/>
+                </DataTrigger>
+            </Style.Triggers>
+            <Setter Property="Background" Value="Green"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Theme:" Margin="0,0,10,0" VerticalAlignment="Center"/>
+            <ComboBox x:Name="_themeCombo" SelectedIndex="0" Width="200" DropDownClosed="_themeCombo_DropDownClosed"
+                        SelectionChanged="_themeCombo_SelectionChanged">
+                <ComboBoxItem Content="Generic" />
+                <ComboBoxItem Content="Aero">
+                    <ComboBoxItem.Tag>
+                        <xcad:AeroTheme />
+                    </ComboBoxItem.Tag>
+                </ComboBoxItem>
+                <ComboBoxItem Content="VS2010">
+                    <ComboBoxItem.Tag>
+                        <xcad:VS2010Theme />
+                    </ComboBoxItem.Tag>
+                </ComboBoxItem>
+                <ComboBoxItem Content="Metro">
+                    <ComboBoxItem.Tag>
+                        <xcad:MetroTheme />
+                    </ComboBoxItem.Tag>
+                </ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+
+        <xcad:DockingManager Grid.Row="1" MaxHeight="425"
+                           AllowMixedOrientation="True"
+                             Background="LightGray"
+                           BorderBrush="Black"
+                             Theme="{Binding ElementName=_themeCombo, Path=SelectedItem.Tag}"
+                           BorderThickness="1">
+            <xcad:DockingManager.DocumentHeaderTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding IconSource}" Margin="0,0,4,0"/>
+                        <TextBlock Text="{Binding Title}" />
+                    </StackPanel>
+                </DataTemplate>
+            </xcad:DockingManager.DocumentHeaderTemplate>
+            <xcad:LayoutRoot x:Name="_layoutRoot">
+                <xcad:LayoutPanel Orientation="Horizontal">
+                    <xcad:LayoutAnchorablePane DockWidth="200">
+                        <xcad:LayoutAnchorable ContentId="properties" Title="Properties" 
+                                            AutoHideWidth="240">
+                            <xctk:PropertyGrid NameColumnWidth="110"
+                        SelectedObject="{Binding ElementName=_layoutRoot, Path=LastFocusedDocument.Content}"/>
+                        </xcad:LayoutAnchorable>
+                    </xcad:LayoutAnchorablePane>
+                    <xcad:LayoutDocumentPaneGroup>
+                        <xcad:LayoutDocumentPane>
+                            <xcad:LayoutDocument ContentId="document1" Title="Document 1">
+                                <avdockView:Document1View/>
+                            </xcad:LayoutDocument>
+                            <xcad:LayoutDocument ContentId="document2" Title="Document 2">
+                                <avdockView:Document2View />
+                            </xcad:LayoutDocument>
+                        </xcad:LayoutDocumentPane>
+                    </xcad:LayoutDocumentPaneGroup >
+                    <xcad:LayoutAnchorablePaneGroup DockWidth="125">
+                        <xcad:LayoutAnchorablePane>
+                            <xcad:LayoutAnchorable ContentId="alarms" Title="Alarms">
+                                <StackPanel Orientation="Vertical">
+                                    <Button Content="change color" Command="{Binding Path=ChangeColorCommand}" />
+                                    <ListBox Background="{StaticResource colorBrush}">
+                                        <s:String>Alarm 1</s:String>
+                                        <s:String>Alarm 2</s:String>
+                                        <s:String>Alarm 3</s:String>
+                                    </ListBox>
+                                </StackPanel>
+                            </xcad:LayoutAnchorable>
+                            <xcad:LayoutAnchorable ContentId="journal" Title="Journal" >
+                                <RichTextBox>
+                                    <FlowDocument>
+                                        <Paragraph FontSize="14" FontFamily="Segoe">
+                                            This is the content of the Journal Pane.
+                                            <LineBreak/>
+                                            A
+                                            <Bold>RichTextBox</Bold> has been added here
+                                        </Paragraph>
+                                    </FlowDocument>
+                                </RichTextBox>
+                            </xcad:LayoutAnchorable>
+                        </xcad:LayoutAnchorablePane>
+                    </xcad:LayoutAnchorablePaneGroup>
+                </xcad:LayoutPanel>
+
+                <xcad:LayoutRoot.LeftSide>
+                    <xcad:LayoutAnchorSide >
+                        <xcad:LayoutAnchorGroup >
+                            <xcad:LayoutAnchorable ContentId="Part 1" Title="Part 1" CanHide="False" CanClose="False"
+                                            AutoHideWidth="240">
+                                <xctk:PropertyGrid NameColumnWidth="110"/>
+                            </xcad:LayoutAnchorable>
+                            <xcad:LayoutAnchorable Title="Agenda" ContentId="agenda" >
+                                <TextBlock Text="Agenda Content" Margin="10" FontSize="18" FontWeight="Black" TextWrapping="Wrap"/>
+                            </xcad:LayoutAnchorable>
+                            <xcad:LayoutAnchorable Title="Contacts" ContentId="contacts">
+                                <TextBlock Text="Contacts Content" Margin="10" FontSize="18" FontWeight="Black" TextWrapping="Wrap"/>
+                            </xcad:LayoutAnchorable>
+                        </xcad:LayoutAnchorGroup>
+                    </xcad:LayoutAnchorSide>
+                </xcad:LayoutRoot.LeftSide>
+            </xcad:LayoutRoot>
+            <xcad:DockingManager.AnchorableTitleTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <!--<Grid.Style>
+                            <Style TargetType="Grid">
+                                -->
+                        <!--<Style.Triggers>
+                                    <DataTrigger Binding="{Binding Model.IsActive, Mode=OneWay, 
+                             RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type xcad:LayoutAnchorableControl}},
+                             FallbackValue=False}" Value="True">
+                                        <Setter Property="Background" Value="Red"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding IsKeyboardFocusWithin, Mode=OneWay,
+                            RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type xcad:LayoutFloatingWindowControl}},
+                            FallbackValue=False}" Value="True">
+                                        <Setter Property="Background" Value="Blue"/>
+                                    </DataTrigger>
+                                </Style.Triggers>-->
+                        <!--
+                                <Setter Property="Background" Value="Green"/>
+                            </Style>
+                        </Grid.Style>-->
+                        <TextBlock Foreground="White" FontWeight="Bold" Text="{Binding Title}" />
+                    </Grid>
+                    <!--<Grid>
+                        <Grid.Style>
+                            <Style TargetType="Grid">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Model.IsActive, Mode=OneWay, 
+                             RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type xcad:LayoutAnchorableControl}},
+                             FallbackValue=False}" Value="True">
+                                        <Setter Property="Background" Value="Red"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                                <Setter Property="Background" Value="Green"/>
+                            </Style>
+                        </Grid.Style>
+                    </Grid>-->
+                    <!--<xcad:LayoutAnchorableControl>
+                        <xcad:LayoutAnchorableControl.Style>
+                            <Style TargetType="xcad:LayoutAnchorableControl">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Model.IsActive, Mode=OneWay, 
+                             RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type xcad:LayoutAnchorableControl}},
+                             FallbackValue=False}" Value="True">
+                                        <Setter Property="Background" Value="LightBlue"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                                <Setter Property="Background" Value="LightGreen"/>
+                            </Style>
+                        </xcad:LayoutAnchorableControl.Style>
+                    </xcad:LayoutAnchorableControl>-->
+                </DataTemplate>
+            </xcad:DockingManager.AnchorableTitleTemplate>
+        </xcad:DockingManager>
+   
+    <!--<Grid>
+        <Button   VerticalAlignment="Top" >
+            <Button.Template>
+                <ControlTemplate >
+                    <Grid>
+                        <Rectangle Fill="Blue" RadiusX="20" RadiusY="20"/>
+                        <Ellipse Fill="Red" />
+                        <ContentPresenter Content="{Binding}">
+                            <ContentPresenter.ContentTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" Height="50">
+                                        <TextBlock Text="Name" Margin="5"/>
+                                        <TextBox Text="Suraj" Margin="5" Width="100"/>
+                                        <Button Content="Show Name" Click="Button_Click" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ContentPresenter.ContentTemplate>
+                        </ContentPresenter>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>-->
+    </Grid>
+</UserControl>
