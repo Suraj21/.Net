@@ -1,0 +1,13 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\bin\Debug\Animation_with_Blend.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\bin\Debug\Animation_with_Blend.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\bin\Debug\Animation_with_Blend.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\obj\Debug\Animation_with_Blend_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\obj\Debug\Animation_with_Blend.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\obj\Debug\Animation_with_Blend.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\obj\Debug\Animation with Blend.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\obj\Debug\Animation_with_Blend.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\obj\Debug\Animation_with_Blend.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation with Blend\Animation with Blend\obj\Debug\Animation with Blend.csprojResolveAssemblyReference.cache

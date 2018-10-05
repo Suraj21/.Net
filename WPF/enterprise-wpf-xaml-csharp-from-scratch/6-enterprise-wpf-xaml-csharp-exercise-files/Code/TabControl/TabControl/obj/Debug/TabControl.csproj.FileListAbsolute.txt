@@ -1,0 +1,27 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\bin\Debug\TabControl.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\bin\Debug\TabControl.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\bin\Debug\TabControl.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\obj\Debug\TabControl.csprojResolveAssemblyReference.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\obj\Debug\TabControl_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\obj\Debug\TabControl.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\obj\Debug\TabControl.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\obj\Debug\TabControl.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\obj\Debug\TabControl.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\TabControl\TabControl\obj\Debug\TabControl.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\bin\Debug\TabControl.exe.config
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\bin\Debug\TabControl.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\bin\Debug\TabControl.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\TabControl.csprojResolveAssemblyReference.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\MainWindow.baml
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\MainWindow.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\App.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\TabControl_MarkupCompile.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\TabControl.g.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\TabControl.Properties.Resources.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\TabControl.csproj.GenerateResource.Cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\TabControl.csproj.CoreCompileInputs.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\TabControl.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\TabControl\TabControl\obj\Debug\TabControl.pdb

@@ -1,0 +1,25 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.exe.config
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\MainWindow.baml
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\MainWindow.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\App.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas_MarkupCompile.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.g.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.Properties.Resources.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.csproj.GenerateResource.Cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.csproj.CoreCompileInputs.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\2-enterprise-wpf-xaml-csharp-exercise-files\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.pdb

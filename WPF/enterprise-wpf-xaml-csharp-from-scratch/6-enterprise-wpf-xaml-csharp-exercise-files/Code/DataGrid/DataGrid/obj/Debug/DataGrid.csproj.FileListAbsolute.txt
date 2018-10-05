@@ -1,0 +1,34 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\bin\Debug\DataGrid.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\bin\Debug\DataGrid.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\bin\Debug\DataGrid.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\DataGrid.csprojResolveAssemblyReference.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\DataGrid_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\DataGrid.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\DataGrid.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\DataGrid.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\DataGrid.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\DataGrid.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataGrid\DataGrid\obj\Debug\DataGrid_MarkupCompile.lref
+C:\Users\telerik\Documents\My Dropbox\jesse-liberty (1)\WPF-enterprise-m6\Code\DataGrid\DataGrid\bin\Debug\DataGrid.exe.config
+C:\Users\telerik\Documents\My Dropbox\jesse-liberty (1)\WPF-enterprise-m6\Code\DataGrid\DataGrid\obj\Debug\DataGrid.exe
+C:\Users\telerik\Documents\My Dropbox\jesse-liberty (1)\WPF-enterprise-m6\Code\DataGrid\DataGrid\obj\Debug\DataGrid.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\bin\Debug\DataGrid.exe.config
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\bin\Debug\DataGrid.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\bin\Debug\DataGrid.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\DataGrid.csprojResolveAssemblyReference.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\MainWindow.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\App.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\DataGrid_MarkupCompile.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\DataGrid_MarkupCompile.lref
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\MainWindow.baml
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\DataGrid.g.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\DataGrid.Properties.Resources.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\DataGrid.csproj.GenerateResource.Cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\DataGrid.csproj.CoreCompileInputs.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\DataGrid.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\6-enterprise-wpf-xaml-csharp-exercise-files\Code\DataGrid\DataGrid\obj\Debug\DataGrid.pdb

@@ -1,0 +1,14 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\bin\Debug\DataConverterDemo.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo_MarkupCompile.lref
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\bin\Debug\DataConverterDemo.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\bin\Debug\DataConverterDemo.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.csproj.GenerateResource.Cache

@@ -1,0 +1,30 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\bin\Debug\SimplestAnimation.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\bin\Debug\SimplestAnimation.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\bin\Debug\SimplestAnimation.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.csprojResolveAssemblyReference.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation 1\SimplestAnimation\bin\Debug\SimplestAnimation.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation 1\SimplestAnimation\obj\Debug\SimplestAnimation.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\SimplestAnimation 1\SimplestAnimation\obj\Debug\SimplestAnimation.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\bin\Debug\SimplestAnimation.exe.config
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\bin\Debug\SimplestAnimation.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\bin\Debug\SimplestAnimation.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.csprojResolveAssemblyReference.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\MainWindow.baml
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\MainWindow.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\App.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation_MarkupCompile.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.g.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.Properties.Resources.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.csproj.GenerateResource.Cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.csproj.CoreCompileInputs.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\SimplestAnimation\SimplestAnimation\obj\Debug\SimplestAnimation.pdb

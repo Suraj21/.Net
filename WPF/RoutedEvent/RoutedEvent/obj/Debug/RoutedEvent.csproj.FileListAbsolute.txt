@@ -1,0 +1,17 @@
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\bin\Debug\RoutedEvent.exe.config
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\bin\Debug\RoutedEvent.exe
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\bin\Debug\RoutedEvent.pdb
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\RoutedEvent.csprojResolveAssemblyReference.cache
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\MainWindow.g.cs
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\App.g.cs
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\RoutedEvent_MarkupCompile.cache
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\RoutedEvent_MarkupCompile.lref
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\MainWindow.baml
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\RoutedEvent.g.resources
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\RoutedEvent.Properties.Resources.resources
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\RoutedEvent.csproj.GenerateResource.Cache
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\RoutedEvent.csproj.CoreCompileInputs.cache
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\RoutedEvent.exe
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\RoutedEvent.pdb
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\VisualStudio17Solutions\RoutedEvent\RoutedEvent\obj\Debug\Themes\Generic.baml

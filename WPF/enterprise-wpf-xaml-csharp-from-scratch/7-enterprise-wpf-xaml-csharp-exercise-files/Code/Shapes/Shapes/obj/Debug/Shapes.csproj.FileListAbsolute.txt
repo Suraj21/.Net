@@ -1,0 +1,27 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\bin\Debug\Shapes.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\bin\Debug\Shapes.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\bin\Debug\Shapes.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\obj\Debug\Shapes_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\obj\Debug\Shapes.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\obj\Debug\Shapes.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\obj\Debug\Shapes.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\obj\Debug\Shapes.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Shapes\Shapes\obj\Debug\Shapes.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\App.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\Shapes_MarkupCompile.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\Shapes.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\Shapes.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\bin\Debug\Shapes.exe.config
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\bin\Debug\Shapes.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\bin\Debug\Shapes.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\MainWindow.baml
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\MainWindow.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\Shapes.g.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\Shapes.Properties.Resources.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\Shapes.csproj.GenerateResource.Cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Shapes\Shapes\obj\Debug\Shapes.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\bin\Debug\AnimationStoryboardCSharp.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\bin\Debug\AnimationStoryboardCSharp.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\bin\Debug\AnimationStoryboardCSharp.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\obj\Debug\AnimationStoryboardCSharp_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\obj\Debug\AnimationStoryboardCSharp.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\obj\Debug\AnimationStoryboardCSharp.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\obj\Debug\AnimationStoryboardCSharp.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\obj\Debug\AnimationStoryboardCSharp.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardCSharp\AnimationStoryboardCSharp\obj\Debug\AnimationStoryboardCSharp.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardXAML 2\AnimationStoryboardCSharp\bin\Debug\AnimationStoryboardCSharp.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardXAML 2\AnimationStoryboardCSharp\obj\Debug\AnimationStoryboardCSharp.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\AnimationStoryboardXAML 2\AnimationStoryboardCSharp\obj\Debug\AnimationStoryboardCSharp.pdb

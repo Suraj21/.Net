@@ -1,0 +1,16 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\bin\Debug\LayoutWithGrids.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.csprojResolveAssemblyReference.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\bin\Debug\LayoutWithGrids.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\bin\Debug\LayoutWithGrids.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.pdb
+C:\Users\telerik\Documents\My Dropbox\jesse-liberty (1)\WPF-enterprise-m2\Code\LayoutWithGrids\LayoutWithGrids\bin\Debug\LayoutWithGrids.exe.config
+C:\Users\telerik\Documents\My Dropbox\jesse-liberty (1)\WPF-enterprise-m2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.exe
+C:\Users\telerik\Documents\My Dropbox\jesse-liberty (1)\WPF-enterprise-m2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.pdb

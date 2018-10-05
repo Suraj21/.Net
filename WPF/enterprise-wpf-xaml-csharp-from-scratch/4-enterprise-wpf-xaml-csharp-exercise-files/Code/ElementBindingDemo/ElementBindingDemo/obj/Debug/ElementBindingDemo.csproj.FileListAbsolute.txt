@@ -1,0 +1,12 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\bin\Debug\ElementBindingDemo.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\bin\Debug\ElementBindingDemo.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\bin\Debug\ElementBindingDemo.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.pdb

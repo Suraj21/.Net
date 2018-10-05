@@ -1,0 +1,13 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\bin\Debug\LayoutWithDockPanels.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\bin\Debug\LayoutWithDockPanels.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\bin\Debug\LayoutWithDockPanels.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.csprojResolveAssemblyReference.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.pdb

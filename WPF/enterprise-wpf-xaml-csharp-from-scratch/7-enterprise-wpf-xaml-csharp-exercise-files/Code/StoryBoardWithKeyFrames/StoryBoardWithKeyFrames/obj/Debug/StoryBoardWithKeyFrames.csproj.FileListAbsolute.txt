@@ -1,0 +1,15 @@
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\bin\Debug\StoryBoardWithKeyFrames.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\bin\Debug\StoryBoardWithKeyFrames.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\bin\Debug\StoryBoardWithKeyFrames.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\obj\Debug\MainWindow.baml
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\obj\Debug\MainWindow.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\obj\Debug\App.g.cs
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\obj\Debug\StoryBoardWithKeyFrames_MarkupCompile.cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\obj\Debug\StoryBoardWithKeyFrames.g.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\obj\Debug\StoryBoardWithKeyFrames.Properties.Resources.resources
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\obj\Debug\StoryBoardWithKeyFrames.csproj.GenerateResource.Cache
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\obj\Debug\StoryBoardWithKeyFrames.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames\StoryBoardWithKeyFrames\obj\Debug\StoryBoardWithKeyFrames.pdb
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames 3\StoryBoardWithKeyFrames\bin\Debug\StoryBoardWithKeyFrames.exe.config
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames 3\StoryBoardWithKeyFrames\obj\Debug\StoryBoardWithKeyFrames.exe
+C:\Users\telerik\Documents\Visual Studio 2012\Projects\Pluralsight\Practice\Animation\StoryBoardWithKeyFrames 3\StoryBoardWithKeyFrames\obj\Debug\StoryBoardWithKeyFrames.pdb

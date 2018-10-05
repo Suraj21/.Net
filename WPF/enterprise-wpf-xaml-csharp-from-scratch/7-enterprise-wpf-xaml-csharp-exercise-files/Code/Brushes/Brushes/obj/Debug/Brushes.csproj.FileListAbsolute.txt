@@ -1,0 +1,13 @@
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\bin\Debug\Brushes.exe.config
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\bin\Debug\Brushes.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\bin\Debug\Brushes.pdb
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\obj\Debug\MainWindow.baml
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\obj\Debug\MainWindow.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\obj\Debug\App.g.cs
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\obj\Debug\Brushes_MarkupCompile.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\obj\Debug\Brushes.g.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\obj\Debug\Brushes.Properties.Resources.resources
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\obj\Debug\Brushes.csproj.GenerateResource.Cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\obj\Debug\Brushes.csproj.CoreCompileInputs.cache
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\obj\Debug\Brushes.exe
+D:\TFS_sachsuraj.visualstudio.com\POCs\WPF\enterprise-wpf-xaml-csharp-from-scratch\7-enterprise-wpf-xaml-csharp-exercise-files\Code\Brushes\Brushes\obj\Debug\Brushes.pdb

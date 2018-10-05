@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateAndEvents", "DelegateAndEvents\DelegateAndEvents.csproj", "{339C94AD-8E7C-42C6-9E5B-5E42D6791DDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreDelegate", "CoreDelegate\CoreDelegate.csproj", "{4C8A3E3D-3058-4342-8A41-66DB49DC039C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{339C94AD-8E7C-42C6-9E5B-5E42D6791DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339C94AD-8E7C-42C6-9E5B-5E42D6791DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339C94AD-8E7C-42C6-9E5B-5E42D6791DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339C94AD-8E7C-42C6-9E5B-5E42D6791DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8A3E3D-3058-4342-8A41-66DB49DC039C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8A3E3D-3058-4342-8A41-66DB49DC039C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8A3E3D-3058-4342-8A41-66DB49DC039C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8A3E3D-3058-4342-8A41-66DB49DC039C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B035525C-6879-449F-886D-2BF25EA5DC0F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sachsuraj.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DelegateAndEvents\\DelegateAndEvents.csproj
+		SccProjectName1 = DelegateAndEvents
+		SccLocalPath1 = DelegateAndEvents
+		SccProjectUniqueName2 = CoreDelegate\\CoreDelegate.csproj
+		SccProjectName2 = CoreDelegate
+		SccLocalPath2 = CoreDelegate
+	EndGlobalSection
+EndGlobal
