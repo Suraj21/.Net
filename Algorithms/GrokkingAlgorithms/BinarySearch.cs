@@ -7,6 +7,16 @@ namespace GrokkingAlgorithms
 {
     static class BinarySearch
     {
+        /// <summary>
+        /// Binary Search Method,
+        /// Takes O(log n) logarithmic time to compute as compared to the O(n) Linear Time fo simple search
+        /// Big O notation tells you how fast an algorithm is.
+        /// Big O doesn’t tell you the speed in seconds.Big O notation lets you compare the number of operations.
+        /// It tells you how fast the algorithm grows.
+        /// </summary>
+        /// <param name="object_List"></param>
+        /// <param name="search_Item"></param>
+        /// <returns></returns>
         public static object Binary_Search(List<int> object_List, int search_Item)
         {
             int? low = 0; // Low and high keep track of which part of the list you will search in.
