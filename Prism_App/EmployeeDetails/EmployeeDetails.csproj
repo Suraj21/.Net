@@ -76,8 +76,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\EmployeeDetailsViewModel.cs" />
     <Compile Include="ViewModel\EmployeeViewViewModel.cs" />
+    <Compile Include="Views\CompanyDetailView.xaml.cs">
+      <DependentUpon>CompanyDetailView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\EmployeeDetailsView.xaml.cs">
       <DependentUpon>EmployeeDetailsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeProjectView.xaml.cs">
+      <DependentUpon>EmployeeProjectView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\EmployeeView.xaml.cs">
       <DependentUpon>EmployeeView.xaml</DependentUpon>
@@ -94,7 +100,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Views\CompanyDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\EmployeeDetailsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmployeeProjectView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

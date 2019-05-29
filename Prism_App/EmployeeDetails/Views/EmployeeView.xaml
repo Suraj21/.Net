@@ -52,17 +52,40 @@
                     ToolTip="MaterialDesignRaisedButton with Round Corners">
                 <TextBlock Text="Hide Employee Details" />
             </Button>
+            <Button Style="{StaticResource MaterialDesignRaisedButton}"
+                    Height="50" 
+                    Margin="10,5,5,5"
+                    Click="Hide_Employee_Click"
+                    Command="{Binding EmpProjectDetailsCommand}"
+                    CommandParameter="EmployeeProjectView"
+                    ToolTip="MaterialDesignRaisedButton with Round Corners">
+                <TextBlock Text="Emp Project Details" />
+            </Button>
+            <Button Style="{StaticResource MaterialDesignRaisedButton}"
+                    Height="50" 
+                    Margin="10,5,5,5"
+                    Command="{Binding CompanyDetailsCommand}"
+                    CommandParameter="CompanyDetailView"
+                    ToolTip="MaterialDesignRaisedButton with Round Corners">
+                <TextBlock Text="Company Details" />
+            </Button>
         </StackPanel>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="100"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="80"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
             <ContentControl Grid.Row="0" Grid.Column="0"  prism:RegionManager.RegionName="EmployeeDetailsRegion" />
-            <StackPanel Grid.Row="1" Grid.Column="0">
+            <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Stretch" Orientation="Horizontal">
+                <!--<ContentControl  prism:RegionManager.RegionName="EmployeeProjectRegion" />
+                <ContentControl  prism:RegionManager.RegionName="CompanyDetailsRegion" />-->
+                <ContentControl  prism:RegionManager.RegionName="DetailsRegion" />
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="0">
                 <DataGrid Height="250" ItemsSource="{Binding Employees,UpdateSourceTrigger=PropertyChanged, NotifyOnSourceUpdated=True}" HorizontalAlignment="Left" Margin="10"   
                     Name="EmployeeDataGrid" VerticalAlignment="Top" RowHeight="30" ColumnWidth="100" />
             </StackPanel>
