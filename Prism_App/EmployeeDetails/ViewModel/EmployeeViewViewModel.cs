@@ -91,11 +91,15 @@ namespace EmployeeDetails.ViewModel
             {
                 //_regionManager.RequestNavigate("CompanyDetailsRegion", navigatePath);
                 //_regionManager.RequestNavigate("DetailsRegion", navigatePath); //OR below implementation with Navigation Complete Implementation
-                _regionManager.RequestNavigate("DetailsRegion", navigatePath, NavigationComplete);
+                _regionManager.RequestNavigate("DetailsRegion", navigatePath, NavigationComplete); //Navigation Call Back Implementation
 
             }
         }
 
+        /// <summary>
+        /// //Navigation Call Back Implementation
+        /// </summary>
+        /// <param name="result"></param>
         private void NavigationComplete(NavigationResult result)
         {
             System.Windows.MessageBox.Show(string.Format("Navigation to {0} complete. ", result.Context.Uri));

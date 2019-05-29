@@ -146,6 +146,10 @@
       <Project>{1016589f-5bcf-4cdc-8af5-fbf7c6a9c318}</Project>
       <Name>EmployeeRegistration</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NavigationParticipation\NavigationParticipation.csproj">
+      <Project>{9d99699c-1629-4691-ad7d-3320f82c7e98}</Project>
+      <Name>NavigationParticipation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

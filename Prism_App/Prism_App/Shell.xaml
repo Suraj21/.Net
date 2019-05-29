@@ -25,6 +25,9 @@
             <TabItem Header="COMPOSITE COMMAND EX">
                 <ContentControl Background="#f4df41" prism:RegionManager.RegionName="CompositeCommandView"></ContentControl>
             </TabItem>
+            <TabItem Header="Navigation Participation">
+                <ContentControl Background="#f4df41" prism:RegionManager.RegionName="NavigationParticipationView"></ContentControl>
+            </TabItem>
             <TabItem Header="DESIGN">
                 <ContentControl HorizontalAlignment="Center" VerticalAlignment="Center">Material Design</ContentControl>
             </TabItem>

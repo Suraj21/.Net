@@ -21,6 +21,9 @@ namespace Prism_App
             regionManager.RegisterViewWithRegion("EmployeeDetailsView", typeof(EmployeeDetails.Views.EmployeeDetailsView));
             regionManager.RegisterViewWithRegion("EmployeeProjectView", typeof(EmployeeDetails.Views.EmployeeProjectView));
             regionManager.RegisterViewWithRegion("CompanyDetailView", typeof(EmployeeDetails.Views.CompanyDetailView));
+            regionManager.RegisterViewWithRegion("NavigationParticipationView", typeof(NavigationParticipation.Views.NavigationParticipationView));
+            regionManager.RegisterViewWithRegion("UserView1", typeof(NavigationParticipation.Views.UserView1));
+            regionManager.RegisterViewWithRegion("UserView2", typeof(NavigationParticipation.Views.UserView2));
         }
     }
 }

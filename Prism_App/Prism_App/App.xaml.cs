@@ -24,6 +24,8 @@ namespace Prism_App
             containerRegistry.RegisterSingleton<IApplicationCommands, ApplicationCommands>();
             containerRegistry.RegisterForNavigation<EmployeeDetails.Views.CompanyDetailView>();
             containerRegistry.RegisterForNavigation<EmployeeDetails.Views.EmployeeProjectView>();
+            containerRegistry.RegisterForNavigation<NavigationParticipation.Views.UserView1>();
+            containerRegistry.RegisterForNavigation<NavigationParticipation.Views.UserView2>();
         }
 
         protected override IModuleCatalog CreateModuleCatalog()
@@ -76,6 +78,11 @@ namespace Prism_App
             ViewModelLocationProvider.Register<CompositeCommandExample.Views.View1, CompositeCommandExample.ViewModel.View1ViewModel>();
             ViewModelLocationProvider.Register<CompositeCommandExample.Views.View2, CompositeCommandExample.ViewModel.View2ViewModel>();
             ViewModelLocationProvider.Register<CompositeCommandExample.Views.View3, CompositeCommandExample.ViewModel.View3ViewModel>();
+            ViewModelLocationProvider.Register<EmployeeDetails.Views.CompanyDetailView, EmployeeDetails.ViewModel.CompanyDetailViewViewModel>();
+            ViewModelLocationProvider.Register<EmployeeDetails.Views.EmployeeProjectView, EmployeeDetails.ViewModel.EmployeeProjectViewViewModel>();
+            ViewModelLocationProvider.Register<NavigationParticipation.Views.UserView1, NavigationParticipation.ViewModel.UserView1ViewModel>();
+            ViewModelLocationProvider.Register<NavigationParticipation.Views.UserView2, NavigationParticipation.ViewModel.UserView2ViewModel>();
+            ViewModelLocationProvider.Register<NavigationParticipation.Views.NavigationParticipationView, NavigationParticipation.ViewModel.NavigationParticipationViewViewModel>();
         }
     }
 }
