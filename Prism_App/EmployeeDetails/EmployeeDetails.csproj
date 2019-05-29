@@ -74,7 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\CompanyDetailViewViewModel.cs" />
     <Compile Include="ViewModel\EmployeeDetailsViewModel.cs" />
+    <Compile Include="ViewModel\EmployeeProjectViewViewModel.cs" />
     <Compile Include="ViewModel\EmployeeViewViewModel.cs" />
     <Compile Include="Views\CompanyDetailView.xaml.cs">
       <DependentUpon>CompanyDetailView.xaml</DependentUpon>

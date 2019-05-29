@@ -68,6 +68,10 @@ namespace EmployeeDetails.ViewModel
             Employees.Add(employee);
         }
 
+        /// <summary>
+        /// Navigation to region Implementation
+        /// </summary>
+        /// <param name="navigatePath"></param>
         private void NavigateToEmployeeProjectView(string navigatePath)
         {
             if (navigatePath != null)
@@ -77,13 +81,24 @@ namespace EmployeeDetails.ViewModel
             }
         }
 
+        /// <summary>
+        ///  Navigation to region Implementation
+        /// </summary>
+        /// <param name="navigatePath"></param>
         private void NavigateToCompanyDetailsView(string navigatePath)
         {
             if (navigatePath != null)
             {
                 //_regionManager.RequestNavigate("CompanyDetailsRegion", navigatePath);
-                _regionManager.RequestNavigate("DetailsRegion", navigatePath);
+                //_regionManager.RequestNavigate("DetailsRegion", navigatePath); //OR below implementation with Navigation Complete Implementation
+                _regionManager.RequestNavigate("DetailsRegion", navigatePath, NavigationComplete);
+
             }
+        }
+
+        private void NavigationComplete(NavigationResult result)
+        {
+            System.Windows.MessageBox.Show(string.Format("Navigation to {0} complete. ", result.Context.Uri));
         }
 
     }
