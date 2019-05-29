@@ -89,5 +89,15 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EventAggregator.Core\EventAggregator.Core.csproj">
+      <Project>{a0f37fde-75a8-4b1d-ab55-ab63877a1b6e}</Project>
+      <Name>EventAggregator.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{5fb13c16-184b-42d8-9938-f251c61e1f62}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

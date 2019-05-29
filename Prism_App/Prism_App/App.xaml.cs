@@ -22,6 +22,7 @@ namespace Prism_App
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterSingleton<IApplicationCommands, ApplicationCommands>();
+            containerRegistry.RegisterForNavigation<EmployeeDetails.Views.EmployeeView>();
         }
 
         protected override IModuleCatalog CreateModuleCatalog()

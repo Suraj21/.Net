@@ -34,6 +34,12 @@
     <Reference Include="CommonServiceLocator, Version=2.0.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
       <HintPath>..\packages\CommonServiceLocator.2.0.4\lib\net46\CommonServiceLocator.dll</HintPath>
     </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.1.1345, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.5.1\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="Prism, Version=7.1.0.431, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
@@ -77,7 +83,16 @@
       <DependentUpon>EmployeeView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\EventAggregator.Core\EventAggregator.Core.csproj">
+      <Project>{a0f37fde-75a8-4b1d-ab55-ab63877a1b6e}</Project>
+      <Name>EventAggregator.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{5fb13c16-184b-42d8-9938-f251c61e1f62}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Page Include="Views\EmployeeDetailsView.xaml">
       <SubType>Designer</SubType>

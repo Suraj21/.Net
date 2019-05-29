@@ -7,7 +7,7 @@
         xmlns:prism="http://prismlibrary.com/"
         xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
         mc:Ignorable="d"
-        Title="Shell" Height="450" Width="800">
+        Title="Shell" Height="500" Width="800">
     <Grid>
         <dragablz:TabablzControl>
             <dragablz:TabablzControl.InterTabController>
@@ -17,16 +17,16 @@
                 <ItemsControl Background="White" prism:RegionManager.RegionName="EmployeeRegistrationView"></ItemsControl>
             </TabItem>
             <TabItem Header="DETAILS">
-                <ItemsControl Background="#415ff4" prism:RegionManager.RegionName="EmployeeView"></ItemsControl>
+                <ContentControl Background="#415ff4" prism:RegionManager.RegionName="EmployeeView"></ContentControl>
             </TabItem>
             <TabItem Header="DELEGATE COMMAND EX">
-                <ItemsControl Background="#41f467" prism:RegionManager.RegionName="DelCommandView"></ItemsControl>
+                <ContentControl Background="#41f467" prism:RegionManager.RegionName="DelCommandView"></ContentControl>
             </TabItem>
             <TabItem Header="COMPOSITE COMMAND EX">
-                <ItemsControl Background="#f4df41" prism:RegionManager.RegionName="CompositeCommandView"></ItemsControl>
+                <ContentControl Background="#f4df41" prism:RegionManager.RegionName="CompositeCommandView"></ContentControl>
             </TabItem>
             <TabItem Header="DESIGN">
-                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Material Design</TextBlock>
+                <ContentControl HorizontalAlignment="Center" VerticalAlignment="Center">Material Design</ContentControl>
             </TabItem>
         </dragablz:TabablzControl>
     </Grid>

@@ -36,7 +36,7 @@
             </Style>
         </ResourceDictionary>
     </UserControl.Resources>
-    <Grid>
+    <Grid Margin="20">
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
@@ -44,15 +44,95 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="NameTextBox" materialDesign:HintAssist.Hint="Name"/>
-
+        <TextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="NameTextBox" 
+                 materialDesign:HintAssist.Hint="Name" 
+                 Text="{Binding Name}"
+                 Margin="10"/>
+        <TextBox Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" 
+                 x:Name="EmailTextBox" 
+                 materialDesign:HintAssist.Hint="Email"
+                 Text="{Binding Email}"
+                 Margin="10"/>
+        <ComboBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                  materialDesign:HintAssist.Hint="Employement Type"
+                  SelectedItem="{Binding EmployementType}"
+                  Margin="10">
+            <ComboBoxItem>
+                Permananet
+            </ComboBoxItem>
+            <ComboBoxItem>
+                Temporary
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"
+                  materialDesign:HintAssist.Hint="Search" 
+                  IsEditable="True" 
+                  Margin="10"
+                  SelectedItem="{Binding Company}"
+                  Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+            <ComboBoxItem IsSelected="True">
+                Siemens
+            </ComboBoxItem>
+            <ComboBoxItem>
+                Cognizant
+            </ComboBoxItem>
+            <ComboBoxItem>
+                Bosch
+            </ComboBoxItem>
+            <ComboBoxItem>
+                Schinder
+            </ComboBoxItem>
+        </ComboBox>
+        <TextBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" 
+                 materialDesign:HintAssist.Hint="Yrs Of Exp"
+                 Text="{Binding YearsOfExp}"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Margin="10"/>
+        <TextBox Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2"
+                 materialDesign:HintAssist.Hint="Technology"
+                 Text="{Binding Technology}"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                 Margin="10"/>
+        <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" Margin="10">
+            <CheckBox x:Name="MaterialDesignOutlinedTextFieldTextBoxEnabledComboBox" IsChecked="True" Margin="32,0,0,8">
+                Enabled
+            </CheckBox>
+            <TextBox
+                    Style="{StaticResource MaterialDesignOutlinedTextFieldTextBox}"
+                    Margin="32,0,0,0"
+                BorderBrush="Purple"
+                BorderThickness="1"
+                    VerticalAlignment="Top"
+                    Height="100"
+                    Text="{Binding Description}"
+                    AcceptsReturn="True"
+                    TextWrapping="Wrap"
+                    VerticalScrollBarVisibility="Auto"
+                    materialDesign:HintAssist.Hint="Describe yourself here"
+                    IsEnabled="{Binding Path=IsChecked, ElementName=MaterialDesignOutlinedTextFieldTextBoxEnabledComboBox}" />
+        </StackPanel>
+        <Grid Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Width="350" Margin="10">
+            <Button Style="{StaticResource MaterialDesignRaisedButton}"
+                    Height="50" 
+                    Command="{Binding SubmitCommand}"
+                    ToolTip="MaterialDesignRaisedButton with Round Corners">
+                <TextBlock Text="Submit" />
+            </Button>
+        </Grid>
+        <Grid Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Width="350" Margin="10">
+            <Button Style="{StaticResource MaterialDesignRaisedButton}"
+                    Height="50" 
+                    Command="{Binding NavigateCommand}"
+                    CommandParameter="EmployeeView"
+                    ToolTip="MaterialDesignRaisedButton with Round Corners">
+                <TextBlock Text="Navigate To Employee Details" />
+            </Button>
+        </Grid>
     </Grid>
 </UserControl>
