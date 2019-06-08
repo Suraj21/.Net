@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿using NavigationParticipation.Notifications;
+using Prism.Commands;
 using Prism.Interactivity.InteractionRequest;
 using Prism.Mvvm;
 using Prism.Regions;
@@ -23,11 +24,21 @@ namespace NavigationParticipation.ViewModel
         public InteractionRequest<INotification> CustomPopupRequest { get; set; }
         public DelegateCommand CustomPopupCommand { get; set; }
 
+        public InteractionRequest<ICustomNotification> CustomNotificationRequest { get; set; }
+        public DelegateCommand CustomNotificationCommand { get; set; }
+
         private string _title = "Prism Unity Application";
         public string Title
         {
             get { return _title; }
             set { SetProperty(ref _title, value); }
+        }
+
+        private string _UserSelectionInformation = "User Selection Information";
+        public string UserSelectionInformation
+        {
+            get { return _UserSelectionInformation; }
+            set { SetProperty(ref _UserSelectionInformation, value); }
         }
 
         public DelegateCommand<string> NavigateCommand { get; private set; }
@@ -47,6 +58,8 @@ namespace NavigationParticipation.ViewModel
             CustomPopupRequest = new InteractionRequest<INotification>();
             CustomPopupCommand = new DelegateCommand(RaiseCustomPopup);
 
+            CustomNotificationRequest = new InteractionRequest<ICustomNotification>();
+            CustomNotificationCommand = new DelegateCommand(RaiseCustomInteraction);
         }
 
         private void Navigate(string navigatePath)
@@ -73,6 +86,17 @@ namespace NavigationParticipation.ViewModel
         void RaiseCustomPopup()
         {
             CustomPopupRequest.Raise(new Notification { Title = "Custom Popup", Content = "Custom Popup Message " }, r => Title = "Good to go");
+        }
+
+        private void RaiseCustomInteraction()
+        {
+            CustomNotificationRequest.Raise(new CustomNotification { Title = "Custom Notification" }, r =>
+            {
+                if (r.Confirmed && r.SelectedItem != null)
+                    UserSelectionInformation = $"User selected: { r.SelectedItem}";
+                else
+                    UserSelectionInformation = "User cancelled or didn't select an item";
+            });
         }
 
     }

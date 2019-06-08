@@ -85,6 +85,7 @@ namespace Prism_App
             ViewModelLocationProvider.Register<NavigationParticipation.Views.UserView1, NavigationParticipation.ViewModel.UserView1ViewModel>();
             ViewModelLocationProvider.Register<NavigationParticipation.Views.UserView2, NavigationParticipation.ViewModel.UserView2ViewModel>();
             ViewModelLocationProvider.Register<NavigationParticipation.Views.NavigationParticipationView, NavigationParticipation.ViewModel.NavigationParticipationViewViewModel>();
+            ViewModelLocationProvider.Register<NavigationParticipation.Views.ItemsSelectionView, NavigationParticipation.ViewModel.ItemSelectionViewModel>();
             ViewModelLocationProvider.Register<NavigationJournal.Views.PersonList, NavigationJournal.ViewModel.PersonListViewModel>();
             ViewModelLocationProvider.Register< NavigationJournal.Views.PersonDetail, NavigationJournal.ViewModel.PersonDetailViewModel>();
             ViewModelLocationProvider.Register< NavigationJournal.Views.NavigationJournalView, NavigationJournal.ViewModel.NavigationJournalViewViewModel>();

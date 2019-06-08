@@ -26,6 +26,15 @@
                 </prism:PopupWindowAction.WindowContent>
             </prism:PopupWindowAction>
         </prism:InteractionRequestTrigger>
+
+        <prism:InteractionRequestTrigger SourceObject="{Binding CustomNotificationRequest}">
+            <prism:PopupWindowAction IsModal="True" CenterOverAssociatedObject="True">
+                <prism:PopupWindowAction.WindowContent>
+                    <views:ItemsSelectionView />
+                </prism:PopupWindowAction.WindowContent>
+            </prism:PopupWindowAction>
+        </prism:InteractionRequestTrigger>
+
     </i:Interaction.Triggers>
     <UserControl.Resources>
         <Style TargetType="TabItem">
@@ -33,23 +42,42 @@
         </Style>
     </UserControl.Resources>
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="70"/>
-            <RowDefinition Height="175"/>
-            <RowDefinition Height="100"/>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="5" Grid.Row="0" >
-            <Button Command="{Binding NavigateCommand}" Height="40"  CommandParameter="UserView1" Margin="5">Navigate to User View 1</Button>
-            <Button Command="{Binding NavigateCommand}"  Height="40"  CommandParameter="UserView2" Margin="5">Navigate to User View 2</Button>
-        </StackPanel>
-        <StackPanel Grid.Row="1" >
-            <TabControl prism:RegionManager.RegionName="NavigateParticipationContentRegion" Margin="5"  />
-        </StackPanel>
-        <StackPanel Grid.Row="2">
-            <Button Margin="5" Width="350" Content="Raise Default Notification" Command="{Binding NotificationCommand}" />
-            <Button Margin="5" Width="350" Content="Raise Default Confirmation" Command="{Binding ConfirmationCommand}"/>
-            <Button Margin="5" Width="350" Content="Raise Custom Popup" Command="{Binding CustomPopupCommand}"/>
-            <TextBlock Text="{Binding Title}" Margin="400,5" HorizontalAlignment="Center" FontSize="15" Height="59" />
-        </StackPanel>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="10" Grid.Row="0" >
+                <Button Command="{Binding NavigateCommand}" Height="40"  CommandParameter="UserView1" Margin="5">Navigate to User View 1</Button>
+                <Button Command="{Binding NavigateCommand}"  Height="40"  CommandParameter="UserView2" Margin="5">Navigate to User View 2</Button>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Margin="10" >
+                <TabControl prism:RegionManager.RegionName="NavigateParticipationContentRegion" Margin="5"  />
+            </StackPanel>
+        <GroupBox Grid.Row="2" Header="Popup Notification" Margin="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="0" >
+                    <Button Margin="5" Padding="5" Content="Raise Default Notification" Command="{Binding NotificationCommand}" />
+                    <Button Margin="5" Padding="5" Content="Raise Custom Confirmation" Command="{Binding ConfirmationCommand}"/>
+                    <Button Margin="5" Padding="5" Content="Raise Custom Popup" Command="{Binding CustomPopupCommand}"/>
+                    <Button Margin="5" Padding="5" Content="Raise Custom Interaction" Command="{Binding CustomNotificationCommand}"/>
+                </StackPanel>
+                <Border BorderBrush="Black" BorderThickness="0.5" Grid.Row="1" Margin="5">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="30,0,0,0" >
+                        <TextBlock Grid.Row="3" Text="Pop Up Results :     " FontSize="15"/>
+                        <TextBlock Grid.Row="3" Text="{Binding Title}" FontSize="15" FontWeight="Bold"/>
+                    </StackPanel>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="0.5" Grid.Row="2" Margin="5">
+                    <TextBlock Text="{Binding UserSelectionInformation}" FontSize="22"/>
+                </Border>
+            </Grid>
+        </GroupBox>
     </Grid>
+
 </UserControl>

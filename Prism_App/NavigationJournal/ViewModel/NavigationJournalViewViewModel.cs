@@ -10,15 +10,12 @@ using System.Threading.Tasks;
 
 namespace NavigationJournal.ViewModel
 {
-    public class NavigationJournalViewViewModel 
+    public class NavigationJournalViewViewModel : BindableBase
     {
-       
-
+      
         public NavigationJournalViewViewModel()
         {
            
         }
-
-
     }
 }

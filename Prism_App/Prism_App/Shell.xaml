@@ -7,7 +7,7 @@
         xmlns:prism="http://prismlibrary.com/"
         xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
         mc:Ignorable="d"
-        Title="Shell" Height="500" Width="1000">
+        Title="Shell" Height="600" Width="1200">
 <Grid>
         <dragablz:TabablzControl>
             <dragablz:TabablzControl.InterTabController>
@@ -22,10 +22,10 @@
             <TabItem Header="DELEGATE COMMAND EX">
                 <ContentControl Background="#41f467" prism:RegionManager.RegionName="DelCommandView"></ContentControl>
             </TabItem>
-            <TabItem Header="COMPOSITE COMMAND EX">
+            <TabItem Header="COMPOSITE COMMAND EX (Invoke Command Action)">
                 <ContentControl Background="#f4df41" prism:RegionManager.RegionName="CompositeCommandView"></ContentControl>
             </TabItem>
-            <TabItem Header="NAVIGATION PARTICIPAION">
+            <TabItem Header="NAVIGATION PARTICIPAION(POP UPs)">
                 <ContentControl Background="#f4df41" prism:RegionManager.RegionName="NavigationParticipationView"></ContentControl>
             </TabItem>
             <TabItem Header="NAVIGATION JOURNAL">
