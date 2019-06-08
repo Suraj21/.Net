@@ -7,8 +7,8 @@
         xmlns:prism="http://prismlibrary.com/"
         xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
         mc:Ignorable="d"
-        Title="Shell" Height="500" Width="800">
-    <Grid>
+        Title="Shell" Height="500" Width="1000">
+<Grid>
         <dragablz:TabablzControl>
             <dragablz:TabablzControl.InterTabController>
                 <dragablz:InterTabController />
@@ -25,8 +25,11 @@
             <TabItem Header="COMPOSITE COMMAND EX">
                 <ContentControl Background="#f4df41" prism:RegionManager.RegionName="CompositeCommandView"></ContentControl>
             </TabItem>
-            <TabItem Header="Navigation Participation">
+            <TabItem Header="NAVIGATION PARTICIPAION">
                 <ContentControl Background="#f4df41" prism:RegionManager.RegionName="NavigationParticipationView"></ContentControl>
+            </TabItem>
+            <TabItem Header="NAVIGATION JOURNAL">
+                <ContentControl Background="#f4df42" prism:RegionManager.RegionName="NavigationJournalView"></ContentControl>
             </TabItem>
             <TabItem Header="DESIGN">
                 <ContentControl HorizontalAlignment="Center" VerticalAlignment="Center">Material Design</ContentControl>

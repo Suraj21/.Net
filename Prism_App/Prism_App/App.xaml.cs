@@ -26,6 +26,8 @@ namespace Prism_App
             containerRegistry.RegisterForNavigation<EmployeeDetails.Views.EmployeeProjectView>();
             containerRegistry.RegisterForNavigation<NavigationParticipation.Views.UserView1>();
             containerRegistry.RegisterForNavigation<NavigationParticipation.Views.UserView2>();
+            containerRegistry.RegisterForNavigation<NavigationJournal.Views.PersonList>();
+            containerRegistry.RegisterForNavigation<NavigationJournal.Views.PersonDetail>();
         }
 
         protected override IModuleCatalog CreateModuleCatalog()
@@ -83,6 +85,15 @@ namespace Prism_App
             ViewModelLocationProvider.Register<NavigationParticipation.Views.UserView1, NavigationParticipation.ViewModel.UserView1ViewModel>();
             ViewModelLocationProvider.Register<NavigationParticipation.Views.UserView2, NavigationParticipation.ViewModel.UserView2ViewModel>();
             ViewModelLocationProvider.Register<NavigationParticipation.Views.NavigationParticipationView, NavigationParticipation.ViewModel.NavigationParticipationViewViewModel>();
+            ViewModelLocationProvider.Register<NavigationJournal.Views.PersonList, NavigationJournal.ViewModel.PersonListViewModel>();
+            ViewModelLocationProvider.Register< NavigationJournal.Views.PersonDetail, NavigationJournal.ViewModel.PersonDetailViewModel>();
+            ViewModelLocationProvider.Register< NavigationJournal.Views.NavigationJournalView, NavigationJournal.ViewModel.NavigationJournalViewViewModel>();
+        }
+
+        protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
+        {
+            base.ConfigureModuleCatalog(moduleCatalog);
+            moduleCatalog.AddModule<NavigationJournal.NavigationJournalModule>();
         }
     }
 }

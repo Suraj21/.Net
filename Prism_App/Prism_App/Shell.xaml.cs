@@ -24,6 +24,9 @@ namespace Prism_App
             regionManager.RegisterViewWithRegion("NavigationParticipationView", typeof(NavigationParticipation.Views.NavigationParticipationView));
             regionManager.RegisterViewWithRegion("UserView1", typeof(NavigationParticipation.Views.UserView1));
             regionManager.RegisterViewWithRegion("UserView2", typeof(NavigationParticipation.Views.UserView2));
+            regionManager.RegisterViewWithRegion("PersonList", typeof(NavigationJournal.Views.PersonList));
+            regionManager.RegisterViewWithRegion("PersonDetail", typeof(NavigationJournal.Views.PersonDetail));
+            //regionManager.RegisterViewWithRegion("NavigationJournalView", typeof(NavigationJournal.Views.NavigationJournalView));
         }
     }
 }

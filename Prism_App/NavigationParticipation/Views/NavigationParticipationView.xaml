@@ -2,12 +2,31 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:views="clr-namespace:NavigationParticipation.Views"
              xmlns:prism="http://prismlibrary.com/"
              prism:ViewModelLocator.AutoWireViewModel="True"
              xmlns:local="clr-namespace:NavigationParticipation.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <i:Interaction.Triggers>
+        <prism:InteractionRequestTrigger SourceObject="{Binding NotificationRequest}">
+            <prism:PopupWindowAction IsModal="True" CenterOverAssociatedObject="True" />
+        </prism:InteractionRequestTrigger>
+
+        <prism:InteractionRequestTrigger SourceObject="{Binding ConfirmationRequest}">
+            <prism:PopupWindowAction IsModal="True" CenterOverAssociatedObject="True" />
+        </prism:InteractionRequestTrigger>
+
+        <prism:InteractionRequestTrigger SourceObject="{Binding CustomPopupRequest}">
+            <prism:PopupWindowAction IsModal="True" CenterOverAssociatedObject="True">
+                <prism:PopupWindowAction.WindowContent>
+                    <views:CustomPopUpView/>
+                </prism:PopupWindowAction.WindowContent>
+            </prism:PopupWindowAction>
+        </prism:InteractionRequestTrigger>
+    </i:Interaction.Triggers>
     <UserControl.Resources>
         <Style TargetType="TabItem">
             <Setter Property="Header" Value="{Binding DataContext.Title}" />
@@ -16,14 +35,21 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="175"/>
+            <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="5" Grid.Row="0" >
             <Button Command="{Binding NavigateCommand}" Height="40"  CommandParameter="UserView1" Margin="5">Navigate to User View 1</Button>
             <Button Command="{Binding NavigateCommand}"  Height="40"  CommandParameter="UserView2" Margin="5">Navigate to User View 2</Button>
         </StackPanel>
         <StackPanel Grid.Row="1" >
-            <TabControl prism:RegionManager.RegionName="ContentRegion" Margin="5"  />
+            <TabControl prism:RegionManager.RegionName="NavigateParticipationContentRegion" Margin="5"  />
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Button Margin="5" Width="350" Content="Raise Default Notification" Command="{Binding NotificationCommand}" />
+            <Button Margin="5" Width="350" Content="Raise Default Confirmation" Command="{Binding ConfirmationCommand}"/>
+            <Button Margin="5" Width="350" Content="Raise Custom Popup" Command="{Binding CustomPopupCommand}"/>
+            <TextBlock Text="{Binding Title}" Margin="400,5" HorizontalAlignment="Center" FontSize="15" Height="59" />
         </StackPanel>
     </Grid>
 </UserControl>

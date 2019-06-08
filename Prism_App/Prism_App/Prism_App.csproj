@@ -146,6 +146,10 @@
       <Project>{1016589f-5bcf-4cdc-8af5-fbf7c6a9c318}</Project>
       <Name>EmployeeRegistration</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NavigationJournal\NavigationJournal.csproj">
+      <Project>{d952f316-2c1c-4206-9f14-a3d48b30cd47}</Project>
+      <Name>NavigationJournal</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NavigationParticipation\NavigationParticipation.csproj">
       <Project>{9d99699c-1629-4691-ad7d-3320f82c7e98}</Project>
       <Name>NavigationParticipation</Name>

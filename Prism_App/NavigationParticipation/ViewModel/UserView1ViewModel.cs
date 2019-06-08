@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace NavigationParticipation.ViewModel
 {
-    public class UserView1ViewModel : BindableBase, INavigationAware
+    public class UserView1ViewModel : BindableBase, IConfirmNavigationRequest//, INavigationAware
     {
         private string _title = "User View 1";
         public string Title
@@ -27,6 +28,16 @@ namespace NavigationParticipation.ViewModel
         public UserView1ViewModel()
         {
 
+        }
+
+        public void ConfirmNavigationRequest(NavigationContext navigationContext, Action<bool> continuationCallback)
+        {
+            bool result = true;
+
+            if (MessageBox.Show("Do you to navigate?", "Navigate?", MessageBoxButton.YesNo) == MessageBoxResult.No)
+                result = false;
+
+            continuationCallback(result);
         }
 
         public void OnNavigatedTo(NavigationContext navigationContext)

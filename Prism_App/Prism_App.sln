@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAggregator.Core", "Eve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationParticipation", "NavigationParticipation\NavigationParticipation.csproj", "{9D99699C-1629-4691-AD7D-3320F82C7E98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationJournal", "NavigationJournal\NavigationJournal.csproj", "{D952F316-2C1C-4206-9F14-A3D48B30CD47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{9D99699C-1629-4691-AD7D-3320F82C7E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D99699C-1629-4691-AD7D-3320F82C7E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D99699C-1629-4691-AD7D-3320F82C7E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D952F316-2C1C-4206-9F14-A3D48B30CD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D952F316-2C1C-4206-9F14-A3D48B30CD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D952F316-2C1C-4206-9F14-A3D48B30CD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D952F316-2C1C-4206-9F14-A3D48B30CD47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
