@@ -8,7 +8,8 @@ namespace GrokkingAlgorithms
         static void Main(string[] args)
         {
             Console.WriteLine("Binary Search Algorithm");
-            List<int> no_List = new List<int> { 1, 2, 4, 5, 6, 8, 9, 11, 13 };
+            List<int> no_List = new List<int> { 1, 2, 3, 4, 5, 6, 7};
+            //BINARY SEARCH TO WORK MAKE SURE THE ARRAY IS SORTED FIRST
             object result = BinarySearch.Binary_Search(no_List, 5);
             Console.WriteLine("Binary Search Result: " + result);
 

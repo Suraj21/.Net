@@ -13,6 +13,7 @@ namespace GrokkingAlgorithms
         /// Big O notation tells you how fast an algorithm is.
         /// Big O doesn’t tell you the speed in seconds.Big O notation lets you compare the number of operations.
         /// It tells you how fast the algorithm grows.
+        /// BINARY SEARCH TO WORK MAKE SURE THE ARRAY IS SORTED FIRST
         /// </summary>
         /// <param name="object_List"></param>
         /// <param name="search_Item"></param>
@@ -23,18 +24,18 @@ namespace GrokkingAlgorithms
             int? high = object_List.Count - 1;
             int? mid = null;
 
-            while (Convert.ToInt32(low) < Convert.ToInt32(high))
+            while (low <= high)
             {
-                mid = (Convert.ToInt32(low) + Convert.ToInt32(high)) / 2; // Get the mid index
+                mid = (low + high) / 2; // Get the mid index
                 int guess = object_List[Convert.ToInt32(mid)]; // Get the middle Element
                 if (guess == search_Item)
-                    return mid;
-                if (Convert.ToInt32(guess) > Convert.ToInt32(search_Item)) // The guess was too high
+                    return ++mid;
+                else if (guess > search_Item) // The guess was too high
                     high = mid - 1;
                 else        // The guess was too low
                     low = mid + 1;
             }
-            return mid;
+            return null;
         }
     }
 }

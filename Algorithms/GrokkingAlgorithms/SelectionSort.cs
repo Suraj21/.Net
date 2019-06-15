@@ -29,16 +29,24 @@ namespace GrokkingAlgorithms
         /// <returns></returns>
         public static int[] Selection_Sort(int[] objArray)
         {
-            int[] new_Array = new int[objArray.Length];
-            int smallest = 0;
+            int temp, smallest = 0;
 
-            for (int i = 0; i < objArray.Length; i++)
+            for (int i = 0; i < objArray.Length - 1; i++)
             {
-                smallest = Find_Smallest_Element(objArray);
-                new_Array[i] = smallest;
+                smallest = i;
+                for (int j = i + 1; j < objArray.Length; j++)
+                {
+                    if (objArray[j] < objArray[smallest])
+                    {
+                        smallest = j;
+                    }
+                }
+                temp = objArray[smallest];
+                objArray[smallest] = objArray[i];
+                objArray[i] = temp;
             }
 
-            return new_Array;
+            return objArray;
         }
     }
 }
