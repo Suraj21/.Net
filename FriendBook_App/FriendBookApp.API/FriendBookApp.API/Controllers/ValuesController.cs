@@ -1,44 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using FriendBookApp.API.DAL;
-using FriendBookApp.API.Interfaces;
+﻿using System.Threading.Tasks;
+using FriendBookApp.API.Data.Interfaces;
+using FriendBookApp.API.Dto;
+using FriendBookApp.API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FriendBookApp.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ValuesController : ControllerBase
     {
-        public IRepository Repository { get; }
+        private IValueRepository _valueRepository;
 
-        public ValuesController(IRepository repository)
+        public ValuesController(IValueRepository ValueRepository)
         {
-            Repository = repository;
+            _valueRepository = ValueRepository;
         }
 
         // GET api/values
         [HttpGet]
         public async Task<IActionResult> GetValues()
         {
-           var values = await Repository.GetValues();
+           var values = await _valueRepository.GetValues();
            return Ok(values);
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetValue(int id)
         {
-            var value = await Repository.GetValue(id);
+            var value = await _valueRepository.GetValue(id);
             return Ok(value);
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post(Value value)
         {
+            //Value value = new Value { Name = valueDto.Value };
+            _valueRepository.SaveValue(value);
         }
 
         // PUT api/values/5
