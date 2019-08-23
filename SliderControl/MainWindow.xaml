@@ -91,7 +91,7 @@
                         Width="45"
                         Click="ButtonOpenMenu_Click">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Icons\WhiteIcons\Menu.png" Height="26" Width="40"/>
+                        <Image Source="Icons\Menu.png" Height="26" Width="40"/>
                     </StackPanel>
                 </Button>
                 <Button x:Name="ButtonCloseMenu"
@@ -103,7 +103,7 @@
                         VerticalAlignment="Top"
                         Click="ButtonCloseMenu_Click">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Icons\WhiteIcons\icons8-reply-arrow-96.png" Height="25" Width="40"/>
+                        <Image Source="Icons\icons8-reply-arrow-96.png" Height="25" Width="40"/>
                     </StackPanel>
                 </Button>
             </StackPanel>
@@ -118,7 +118,7 @@
                     <ListViewItem x:Name="ItemHome" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <StackPanel Orientation="Horizontal">
-                                <Image Source="D:\POC\ConsoleApp1\SliderControl\Icons\WhiteIcons\Home.png" Height="24" Width="40"/>
+                                <Image Source="Icons\Home.png" Height="24" Width="40"/>
                             </StackPanel>
                             <TextBlock Text="Home" VerticalAlignment="Center" FontSize="20" FontWeight="DemiBold" Margin="20 10"/>
                         </StackPanel>
@@ -126,7 +126,7 @@
                     <ListViewItem x:Name="ItemCreate" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <StackPanel Orientation="Horizontal">
-                                <Image Source="D:\POC\ConsoleApp1\SliderControl\Icons\WhiteIcons\Edit.png" Height="25" Width="40"/>
+                                <Image Source="Icons\Edit.png" Height="25" Width="40"/>
                             </StackPanel>
                             <TextBlock Text="Edit" VerticalAlignment="Center" FontSize="20" FontWeight="DemiBold" Margin="20 10"/>
                         </StackPanel>
@@ -134,7 +134,7 @@
                     <ListViewItem x:Name="ItemMedia" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <StackPanel Orientation="Horizontal">
-                                <Image Source="Icons\WhiteIcons\Media.png" Height="25" Width="40"/>
+                                <Image Source="Icons\Media.png" Height="25" Width="40"/>
                             </StackPanel>
                             <TextBlock Text="Media" VerticalAlignment="Center" FontSize="20" FontWeight="DemiBold"  Margin="20 10"/>
                         </StackPanel>
@@ -142,7 +142,7 @@
                     <ListViewItem  x:Name="ItemCalender" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <StackPanel Orientation="Horizontal">
-                                <Image Source="Icons\WhiteIcons\Calender.png" Height="25" Width="40"/>
+                                <Image Source="Icons\Calender.png" Height="25" Width="40"/>
                             </StackPanel>
                             <TextBlock Text="Calender" VerticalAlignment="Center" FontSize="20" FontWeight="DemiBold"  Margin="20 10"/>
                         </StackPanel>
